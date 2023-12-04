@@ -326,9 +326,9 @@ INSERT INTO lesson_type (lesson_type_id, value, pricing_scheme_id, instrument_ty
 
 (407, 'Private',    1, 		1,		null,		3),
 (408, 'Group',    	2, 		4,		null,		3),
-(409, 'Ensamble',   2, 		null,	2,			null),
-(410, 'Ensamble',   3, 		null,	4,			null),
-(411, 'Ensamble',   5, 		null,	1,			null);
+(409, 'Ensemble',   2, 		null,	2,			null),
+(410, 'Ensemble',   3, 		null,	4,			null),
+(411, 'Ensemble',   5, 		null,	1,			null);
 
 -- Exempeldata för Lesson Tabell
 INSERT INTO lesson (lesson_id, start_time, end_time, minimum_of_students, max_of_students, instructor_id, lesson_type_id) VALUES
